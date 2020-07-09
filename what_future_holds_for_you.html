@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ 
+<style>
+#left {
+  float: left;
+  width: 250px;
+  overflow: hidden;
+  margin-right:130px;
+}
+
+h1,h2,h3,h4 {
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #777;
+}
+
+
+.buttons{
+	margin-left:250px;
+	margin-bottom:70px;
+	margin-top:80px;
+
+   width:805px;
+}
+#chart {  overflow: hidden;
+        height: 360px;
+        margin: 0 auto;                                               /* NEW */
+        position: relative;
+       
+      }
+      .tooltip {
+        background: #eee;
+        box-shadow: 0 0 5px #999999;
+        color: #333;
+        display: none;
+        font-size: 12px;
+        left: 130px;
+        padding: 10px;
+        position: Absolute;
+        text-align: center;
+        top: 95px;
+        width: 80px;
+        z-index: 10;
+      }
+      .legend {
+        font-size: 12px;
+      }
+      rect {
+        cursor: pointer;                                              /* NEW */
+        stroke-width: 2;
+      }
+      rect.disabled {                                                 /* NEW */
+        fill: transparent !important;                                 /* NEW */
+      }                                                               /* NEW */
+      h1 {                                                            /* NEW */
+        font-size: 14px;                                              /* NEW */
+        text-align: center;                                           /* NEW */
+      } 
+             
+        .return{
+          font-size: 3.8rem;
+        }
+        .tooltip{
+          text-align: left;
+        }
+
+.container {
+	width: 1200px;
+	height: 500px;
+	margin: 25px auto 25px auto;
+	padding: 50px 50px 50px 50px;
+	background-color: white;
+	box-shadow: 0 0 20px #ccc;
+font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+	 color: #777;
+  font-size: 16px;
+  line-height: 28px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+
+}
+
+</style>
+		
+		
+		<!-- Custom CSS styles -->
+		
+	</head>
+	<body>
+	
+  	  <script src="../d3.js"></script>
+		<div class="container">
+		<div id="left">
+		<h2> Description </h2>
+		<p> This Donut Diagram shows you the number of enrolled students in 2018 in each Major and Specialization
+		just click on your desired major and hover on each piece of donut for more information!</p>
+		<h2> Category:</h2>
+		<p>
+		Academic Data</p>
+		</div>
+    <div id="chart"></div>	
+      
+			
+	<div class='buttons'>
+      <button id="tortoise">Culture / Media
+</button>
+      <button id="mix">Engineering</button>
+      <button id="hare">Mathematics and Natural Science</button>
+      <button id="socialStudies">Social Studies</button>
+      <button id="law">Economy and law </button>
+        <button id="med">Medicine </button>
+    </div>
+
+
+		</div> 
+		
+
+		<!-- JS Libraries -->
+		<!--<script src="d3.js" charset="utf-8"></script>-->
+		<script type="text/javascript" src="https://d3js.org/d3.v3.js"></script>
+
+		<!-- Custom JS code -->
+  <script src="pie-test.js"></script>
+
+		
+	</body>
+</html>
