@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -7,11 +7,49 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 	<style>
+	
+h1,h2,h3,h4 {
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #777;
+}
 
-		*{
-			font-family: Lato;
-		}
+#left {
+  float: right;
+  width: 250px;
+  overflow: hidden;
+  margin-right:130px;
+}
 
+
+	
+#container {
+	width: 1200px;
+	height: 700px;
+	margin: 25px auto 25px auto;
+	padding: 50px 50px 50px 50px;
+	background-color: white;
+	box-shadow: 0 0 20px #ccc;
+font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+	 color: #777;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+
+}
+label{
+	font-family: 'Source Sans Pro', sans-serif;
+	  font-size: 14px;
+  line-height: 28px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+   display: inline-block;
+    vertical-align: middle;
+
+}
 		.axis-x path {
 			stroke: #000;
 		}
@@ -38,8 +76,10 @@
 		#menu{
 			display: inline;
 			width: 100%;
-			/* border:1px solid black; */
-			/* padding: 1%; */
+			
+			padding: 1%; */
+			font-family: 'Source Sans Pro', sans-serif;
+			box-shadow:  0 0 20px #ccc;
 		}
 
 		#nation{
@@ -59,14 +99,22 @@
 <body>
 
 	<div id="container">
-		<p>Click on one of the following Majors to compare the salaries.</p>
+	
 
-
-	<div id="menu"></div>
 
 	<div class="graph">
 		<svg width="800" height="500"></svg>
 	</div>
+  <div id="left">
+  <h2> Description </h2>
+ 
+  <p> you gathered all the data you need regarding your education and your future job! Now it's the time to comparison all the data in one place! this Multi line Diagram will help you to compare several job's income at the same time. Simply check as many as jobs you want from the menu and compare the trends!</p>
+		<h2> Category:</h2>
+		<p>
+		Comparison</p>
+</div>
+  	<p>Click on the following Majors to compare the salaries.</p>
+	<div id="menu"></div>
 
 	</div>
 
