@@ -155,6 +155,7 @@
         .text(hareReturn + "%")
         .attr("y", ".3em")
         .attr("text-anchor", "middle")
+	 .style('fill','white')
 
 
  var tortoise = d3.select("#tortoise")
