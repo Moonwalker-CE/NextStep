@@ -8,13 +8,11 @@ The project scenario of the current work is to help interested students to gain 
  
 # Project Architecture
 
-https://github.com/Moonwalker-CE/NextStep/raw/master/Untitled%20Diagram.png
+![github-small](https://github.com/Moonwalker-CE/NextStep/raw/master/images/Untitled%20Diagram.png)
 
-```
-Give examples
-```
 
-### Installing
+# Tools for visualization
+- D3.js
 
 A step by step series of examples that tell you how to get a development env running
 
