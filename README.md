@@ -14,22 +14,13 @@ The project scenario of the current work is to help interested students to gain 
 # Tools for visualization
 - D3.js
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
+# Screenshots
+![github-small](https://github.com/Moonwalker-CE/NextStep/raw/master/images/2.png)
+- Visulalizing registered students with donut chart
+![github-small](https://github.com/Moonwalker-CE/NextStep/raw/master/images/22.png)
+- Visulalizing Salary comparison with Line chart
+![github-small](https://github.com/Moonwalker-CE/NextStep/raw/master/images/3.png)
+- Visulalizing income and unemployment rate with bar chart and line chart
 ## Running the tests
 
 Explain how to run the automated tests for this system
