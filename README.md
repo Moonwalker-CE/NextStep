@@ -8,7 +8,7 @@ The project scenario of the current work is to help interested students to gain 
  
 # Project Architecture
 
-What things you need to install the software and how to install them
+https://github.com/Moonwalker-CE/NextStep/raw/master/Untitled%20Diagram.png
 
 ```
 Give examples
